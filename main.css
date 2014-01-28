@@ -1,0 +1,30 @@
+html
+{
+    background: url(images/budapest.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.overlay
+{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(200,200,200,.8);
+    padding: 20px;
+    opacity:0.85;
+    -moz-opacity:0.85;
+    filter:alpha(opacity=85);
+    overflow:hidden;
+}
+
+.info
+{
+    float: left;
+}
